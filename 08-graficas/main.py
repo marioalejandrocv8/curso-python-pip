@@ -1,7 +1,6 @@
 import utils
 import read_csv
 import charts
-import pandas as pd
 
 def run():
   data = read_csv.read_csv('/home/platzi/Curso-de-Python-PIP-y-Entornos-Virtuales/py-proyect/08-graficas/data.csv')
