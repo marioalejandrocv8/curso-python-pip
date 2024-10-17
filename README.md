@@ -38,3 +38,13 @@ source env/bin/activate
 pip3 install -r requirements.txt
 python3 main.py
 ````
+
+# FAST API
+```sh
+git clone
+cd 14-fastapi
+python3 -m venv env
+source env/bin/activate
+pip3 install -r requirements.txt
+python3 main.py
+````
