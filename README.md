@@ -18,11 +18,21 @@ pip3 install -r requirements.txt
 python3 main.py
 ````
 
-# web service Project
+# Web service Project
 
 ```sh
 git clone
 cd 12-web-server
+python3 -m venv env
+source env/bin/activate
+pip3 install -r requirements.txt
+python3 main.py
+````
+
+# Graficas Pandas
+```sh
+git clone
+cd 13-pandas
 python3 -m venv env
 source env/bin/activate
 pip3 install -r requirements.txt
