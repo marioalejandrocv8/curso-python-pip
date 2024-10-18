@@ -13,4 +13,4 @@ def get_list():
 
 @app.get('/html',response_class=HTMLResponse)
 def get_list():
-    return """ Soy un HTML """
+    return """ SOY UN HTML """
