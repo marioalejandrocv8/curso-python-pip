@@ -3,7 +3,7 @@ import read_csv
 import charts
 
 def run():
-  data = read_csv.read_csv('/home/platzi/Curso-de-Python-PIP-y-Entornos-Virtuales/py-proyect/08-graficas/data.csv')
+  data = read_csv.read_csv('data.csv')
   data = list(filter(lambda  x : x['World Population Percentage'],data))
   
   countries = list(map(lambda x: x['Country'],data))
